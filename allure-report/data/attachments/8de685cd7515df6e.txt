@@ -1,0 +1,21 @@
+https://rahulshettyacademy.com/api/ecom/auth/login
+https://rahulshettyacademy.com/api/ecom/auth/login 200
+https://rahulshettyacademy.com/api/ecom/product/get-all-products
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/686b803c6eb37775308a0752
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/686b803c6eb37775308a0752
+https://rahulshettyacademy.com/api/ecom/product/get-all-products 200
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/686b803c6eb37775308a0752
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/686b803c6eb37775308a0752
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/686b803c6eb37775308a0752
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959265156.jpg
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959232316.jpeg
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959158182.jpg
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/686b803c6eb37775308a0752 200
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/686b803c6eb37775308a0752 200
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/686b803c6eb37775308a0752 200
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/686b803c6eb37775308a0752 200
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959265156.jpg 200
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959232316.jpeg 200
+https://rahulshettyacademy.com/api/ecom/user/get-cart-count/686b803c6eb37775308a0752 200
+https://rahulshettyacademy.com/api/ecom/uploads/productImage_1767959158182.jpg 200
+[ 'ADIDAS ORIGINAL', 'ZARA COAT 3', 'iphone 13 pro' ]
