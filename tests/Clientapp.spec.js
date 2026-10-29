@@ -18,7 +18,7 @@ test('Login Page', async ({ page }) => {
     const titles = await dashboardPage.getProductTitles();
     console.log(titles);
 
-    const count = await dashboardPage.getProductCount();ma
+    const count = await dashboardPage.getProductCount();
 
     expect(titles).toContain(productName);
     expect(count).toBeGreaterThan(0);

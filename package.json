@@ -4,19 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "regression": "npx playwright test",
-    "allure:generate": "npx allure generate ./allure-results --clean",
-    "allure:open": "npx allure open ./allure-results"
+    "regression": "npx playwright test tests/Clientapp.spec.js --reporter=line,allure-playwright",
+    "alluregenerate": "npx allure generate ./allure-results --clean",
+    "allureopen": "npx allure open ./allure-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@azure/identity": "^4.14.0",
+    "@azure/playwright": "^1.1.6",
     "@playwright/mcp": "^0.0.75",
     "@playwright/test": "^1.61.1",
     "@types/node": "^25.3.0",
     "allure-commandline": "^2.20.0",
-    "allure-playwright": "^3.10.2"
+    "allure-playwright": "^3.14.0"
   }
 }

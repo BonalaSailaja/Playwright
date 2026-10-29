@@ -2,7 +2,7 @@ const {test,expect} = require('@playwright/test');
 
 test('Validations' , async({page})=>{
 
-    await page.goto('https://rahulshettyacademy.com/AutomationPractice/');
+    await page.goto('https://rahulshettyacademy.com/AutomationPractice/', { waitUntil: 'domcontentloaded' });
     //await page.goto('https://www.myntra.com');
     //await page.goBack();
     //await page.goForward();*/
@@ -10,8 +10,8 @@ test('Validations' , async({page})=>{
     await page.locator('input[value="Hide"]').click();
     await expect(page.locator('#displayed-text')).toBeHidden();
     //await page.pause();
+    page.on('dialog', dialog => dialog.accept());
     await page.locator('#confirmbtn').click();
-    await page.on('dialog', dialog => dialog.accept());
     await page.locator('#mousehover').hover();
 
     const framesPage = page.frameLocator('#courses-iframe');
