@@ -17,9 +17,9 @@ jobs:
       run: npm ci
     
     - name: Azure Login
-        uses: azure/login@v2
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
+      uses: azure/login@v2
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     
     - name: Run Playwright tests
